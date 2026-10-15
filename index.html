@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PinShop Hub — private Pinterest ads dashboard</title>
+    <meta name="description" content="PinShop Hub is a private, read-only dashboard I use to follow my own Pinterest ad campaigns." />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Pixelify+Sans:wght@500;600;700&family=Silkscreen&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="wrap top">
+      <a class="brand" href="./"><img src="icon.svg" alt="" />PinShop Hub</a>
+      <nav class="nav">
+        <a href="./" aria-current="page">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="https://github.com/foaxisz/pinshop-hub/issues">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="wrap hero">
+        <div>
+          <p class="label rise">Private tool · read-only</p>
+          <h1 class="rise d1">My Pinterest ads, in <em>one dashboard.</em></h1>
+          <p class="rise d2">
+            PinShop Hub is a personal tool I use to follow my own Pinterest ad campaigns and the products I promote as a
+            Shopee affiliate. It is not a public service and is not offered to other people.
+          </p>
+          <div class="actions rise d2">
+            <a class="btn notch" href="privacy.html">Privacy policy</a>
+            <a class="btn ghost notch" href="https://github.com/foaxisz/pinshop-hub/issues">Contact</a>
+          </div>
+        </div>
+
+        <div class="screen rise d1" aria-hidden="true">
+          <div class="row">
+            <span class="label">Daily spend · 14 days</span>
+            <span class="big">R$</span>
+          </div>
+          <div class="bars">
+            <span style="height: 38%; animation-delay: 0ms"></span>
+            <span style="height: 52%; animation-delay: 40ms"></span>
+            <span style="height: 45%; animation-delay: 80ms"></span>
+            <span style="height: 66%; animation-delay: 120ms"></span>
+            <span style="height: 58%; animation-delay: 160ms"></span>
+            <span style="height: 74%; animation-delay: 200ms"></span>
+            <span style="height: 61%; animation-delay: 240ms"></span>
+            <span style="height: 82%; animation-delay: 280ms"></span>
+            <span style="height: 70%; animation-delay: 320ms"></span>
+            <span style="height: 90%; animation-delay: 360ms"></span>
+            <span style="height: 77%; animation-delay: 400ms"></span>
+            <span style="height: 96%; animation-delay: 440ms"></span>
+          </div>
+          <div class="legend"><span><i></i>Campaign A</span><span><i class="off"></i>Campaign B</span></div>
+        </div>
+      </div>
+
+      <section class="wrap">
+        <p class="label">What it does</p>
+        <h2>Three jobs, all for my own account</h2>
+        <div class="cards">
+          <article class="card notch">
+            <div class="ico"></div>
+            <h3>Campaign reports</h3>
+            <p>Reads my campaigns and their daily metrics — spend, impressions, clicks, outbound clicks and saves.</p>
+          </article>
+          <article class="card notch">
+            <div class="ico"></div>
+            <h3>Creative library</h3>
+            <p>Keeps my pin creatives and ad copy organized by campaign and product category.</p>
+          </article>
+          <article class="card notch">
+            <div class="ico"></div>
+            <h3>Analysis</h3>
+            <p>Helps me compare campaigns and decide where to put my budget next.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <p class="label">Pinterest API use</p>
+        <h2>Read-only, my data only</h2>
+        <div class="facts notch">
+          <ul>
+            <li><strong>Permission:</strong> <code>ads:read</code> only.</li>
+            <li><strong>Read-only:</strong> it never creates, edits or publishes anything on Pinterest.</li>
+            <li><strong>Scope:</strong> only my own ad account — no other users' data.</li>
+            <li><strong>Storage:</strong> data stays on my own computer and is never sold or shared. See the <a href="privacy.html">privacy policy</a>.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap foot">
+      <span>© 2026 PinShop Hub · Not affiliated with or endorsed by Pinterest.</span>
+      <nav>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="https://github.com/foaxisz/pinshop-hub/issues">Contact</a>
+      </nav>
+    </footer>
+  </body>
+</html>
